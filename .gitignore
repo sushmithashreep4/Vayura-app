@@ -1,0 +1,38 @@
+# ── Node / Frontend ──────────────────────────────────────────
+node_modules/
+dist/
+.cache/
+.parcel-cache/
+
+# ── Environment files (NEVER commit secrets) ─────────────────
+.env
+.env.local
+.env.*.local
+frontend/.env
+backend/.env
+
+# ── Java / Maven ─────────────────────────────────────────────
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/
+mvnw.cmd
+
+# ── IDE / Editor ─────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── OS ───────────────────────────────────────────────────────
+.DS_Store
+desktop.ini
